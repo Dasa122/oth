@@ -52,5 +52,21 @@ qQYQiHOBPR8zR61qxYqX45quvihF2uzk
 
 13-14
 
+scp -P 2220 bandit13@bandit.labs.overthewire.org:/home/bandit13/sshkey.private .
 
+chmod 700 ./sshkey.private
+
+ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220
+
+cat /etc/bandit_pass/bandit14
+
+aaWecNkG4FhxJQxz07uiwzVP6bJiYS65
+
+14-15
+
+nc localhost 30000
+
+pbLYuZtTg4MgaqfJx8jbA9gKKGqM68A7
+
+15-16
               
