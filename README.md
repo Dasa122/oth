@@ -10,6 +10,18 @@ bandit7@bandit:~$ cat data.txt | grep millionth
 
 millionth       VR1ljMayciFxbnUokuQmJFw6QC9VKtub
 
-A | jelet pipe-nak (csőnek) hívják. Úgy működik, mint egy cső két parancs között: az első parancs kimenetét közvetlenül a második parancs bemenetébe vezeti, ahelyett hogy kiírná a képernyőre.
+A | jelet pipe-nak hívják. Úgy működik, mint egy cső két parancs között: az első parancs kimenetét közvetlenül a második parancs bemenetébe vezeti, ahelyett hogy kiírná a képernyőre.
+Altgr + w
 
+8 > 9 
+
+sort data.txt | uniq -u
+
+EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl
+
+9-10
+
+strings data.txt | grep ====
+
+B0s2khmbT9u0geKuOoVGW3JZKhndE3BG
 
