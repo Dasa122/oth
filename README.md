@@ -70,3 +70,10 @@ pbLYuZtTg4MgaqfJx8jbA9gKKGqM68A7
 
 15-16
               
+
+     s_client      This  implements  a  generic  SSL/TLS client which can establish a transparent connection to a remote server speaking SSL/TLS. It's intended for testing purposes only and provides only rudimentary interface functionality but internally uses mostly all functionality of the
+           OpenSSL ssl library.
+
+openssl s_client localhost:30001
+
+kS0Hf0u5HiXFwKMKFqXvPdOTNGGa0X8V
