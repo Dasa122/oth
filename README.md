@@ -25,3 +25,32 @@ strings data.txt | grep ====
 
 B0s2khmbT9u0geKuOoVGW3JZKhndE3BG
 
+10-11
+
+base64 -d data.txt
+
+pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro
+
+11-12
+
+cat data.txt | tr "A-Za-z" "N-ZA-Mn-za-m"
+
+GROozWPO8QyN0mGrjUkID0WCYkZiQxrN
+
+12-13
+
+xxd -r data.txt | zcat | bzcat | zcat | tar xO | tar xO | bzcat | tar xO | zcat | cat
+
+       -x, --extract, --get
+              Extract files from an archive.  Arguments are optional.
+              When given, they specify names of the archive members to be
+              extracted.
+       -O, --to-stdout
+              Extract files to standard output.
+
+qQYQiHOBPR8zR61qxYqX45quvihF2uzk
+
+13-14
+
+
+              
