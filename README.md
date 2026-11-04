@@ -126,7 +126,7 @@ openssl s_client localhost:30001
 kS0Hf0u5HiXFwKMKFqXvPdOTNGGa0X8V
 ```
 
-## Level 15 → 16
+## Level 16 → 17
 
 ```text
  SERVICE/VERSION DETECTION:
@@ -179,3 +179,53 @@ KLE1QobuX5Wx6cWaOsc1j61vpaYDEwMUT8LeMFqKjN1rF1LMiNENBQhtd+ikJmYYwB01/5
 Pfos/2C+rbNuHjAAAADnJ1ZHlAbG9jYWxob3N0AQIDBA==
 -----END OPENSSH PRIVATE KEY-----
 ```
+
+## Level 17 → 18
+
+```bash
+diff passwords.new passwords.old
+```
+
+```text
+OQxXZjELndr90zuhOTDYBEomI0SZITXI
+```
+
+## Level 18 → 19
+
+```bash
+ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme
+```
+
+```text
+KpsOfPkcP7i1FlIExk2QEjyt6dw8dxZI
+```
+
+## Level 19 → 20
+
+```bash
+./bandit20-do cat /etc/bandit_pass/bandit20
+```
+
+```text
+4pIjcunZ0fK2vmp3IwfG8Vf7VhxD6pOA
+```
+## Level 20 → 21
+
+```text
+       -n     do not output the trailing newline
+
+       -l      Listen for an incoming connection rather than initiating a connection to a remote host.
+       -p source_port       Specify the source port nc should use, subject to privilege restrictions and availability.
+       & sends it to the background
+```
+
+
+```bash
+echo -n '4pIjcunZ0fK2vmp3IwfG8Vf7VhxD6pOA' | nc -l -p 1234 &
+./suconnect 1234
+```
+
+```text
+bW9kBv5WC3P4yoDyf12LSdGuNz5ka6hY
+```
+
