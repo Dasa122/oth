@@ -282,3 +282,30 @@ cat /tmp/tmp.NJjseRy9cK/result
 ```text
 hVQMk3lJNsmQ7VF3ubyrNNBom7BOgVXv
 ```
+
+## Level 23 → 24
+
+```text
+       -v, --invert-match
+              Invert the sense of matching, to select non-matching lines.
+
+```
+
+
+```bash
+nc localhost 30002
+
+#!/bin/bash
+
+for i in {0000..9999};
+do
+	echo "hVQMk3lJNsmQ7VF3ubyrNNBom7BOgVXv $i"
+done | nc localhost 30002 | grep -v Wrong
+```
+
+```text
+SoHfqMOEqIX2IYKVciZxvgpR9a2Djx4P
+```
+
+
+
