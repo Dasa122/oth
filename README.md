@@ -283,7 +283,7 @@ cat /tmp/tmp.NJjseRy9cK/result
 hVQMk3lJNsmQ7VF3ubyrNNBom7BOgVXv
 ```
 
-## Level 23 → 24
+## Level 24 → 25
 
 ```text
        -v, --invert-match
