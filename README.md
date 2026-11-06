@@ -1,6 +1,76 @@
 # oth
 
+## Level 0
+
+```bash
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+# use bandit0 as a password as well
+```
+
+```text
+pXa26xhMWaC2SvDotA4r9EgZkulOeSBW
+```
+
+## Level 0 → 1
+
+```bash
+cat readme
+```
+
+```text
+6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
+```
+
+## Level 1 → 2
+
+```bash
+cat ./-
+```
+
+```text
+PK8fYLZg2hnHSz83plBL1iEPKdD3QToB
+```
+
+## Level 2 → 3
+
+```bash
+cat  ./--spaces\ in\ this\ filename--
+```
+
+```text
+7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME
+```
+
+## Level 3 → 4
+
+```bash
+cd inhere/
+ls -all
+cat ...Hiding-From-You
+```
+
+```text
+xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq
+```
+
+## Level 4 → 5
+
+```bash
+cd inhere/
+file ./*
+cat ./-file07
+```
+
+```text
+6C7h9GD8M6ai5nr7wo1RonrzFjj9yIrG
+```
+
 ## Level 5 → 6
+
+```bash
+find . -size 1033c -readable ! -executable
+cat ./inhere/maybehere07/.file2
+```
 
 ```text
 pXa26xhMWaC2SvDotA4r9EgZkulOeSBW
@@ -23,7 +93,7 @@ cat data.txt | grep millionth
 ```
 
 ```text
-millionth       VR1ljMayciFxbnUokuQmJFw6QC9VKtub
+VR1ljMayciFxbnUokuQmJFw6QC9VKtub
 ```
 
 > A | jelet pipe-nak hívják. Úgy működik, mint egy cső két parancs között: az első parancs kimenetét közvetlenül a második parancs bemenetébe vezeti, ahelyett hogy kiírná a képernyőre.
