@@ -377,7 +377,7 @@ done | nc localhost 30002 | grep -v Wrong
 SoHfqMOEqIX2IYKVciZxvgpR9a2Djx4P
 ```
 
-## Level 24 → 25
+## Level 25 → 26
 
 ```text
 
