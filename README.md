@@ -412,7 +412,7 @@ cat /etc/bandit_pass/bandit26
 ## Level 27 → 28
 
 ```bash
-it clone ssh://bandit27-git@bandit.labs.overthewire.org:2220/home/bandit27-git/repo
+git clone ssh://bandit27-git@bandit.labs.overthewire.org:2220/home/bandit27-git/repo
 cd repo/
 cat README
 ```
@@ -424,7 +424,7 @@ y8Yd2ssKcpHpud7UvOSOxwamRMzIGIeQ
 ## Level 28 → 29
 
 ```bash
-it clone ssh://bandit28-git@bandit.labs.overthewire.org:2220/home/bandit28-git/repo
+git clone ssh://bandit28-git@bandit.labs.overthewire.org:2220/home/bandit28-git/repo
 cd repo/
 git log
 git checkout df10da19c2625f7c59e071e16030bd587d8c409d
@@ -438,7 +438,7 @@ Em7eGtqaMySwNFjCpwzzHhLhospOcdt0
 ## Level 29 → 30
 
 ```bash
-it clone ssh://bandit29-git@bandit.labs.overthewire.org:2220/home/bandit29-git/repo
+git clone ssh://bandit29-git@bandit.labs.overthewire.org:2220/home/bandit29-git/repo
 cd repo/
 git branch -r
 git checkout origin/dev
@@ -452,7 +452,7 @@ jq9Dfg2rXsfYsWMgFuKlXhphjdH7USgX
 ## Level 30 → 31
 
 ```bash
-it clone ssh://bandit30-git@bandit.labs.overthewire.org:2220/home/bandit30-git/repo
+git clone ssh://bandit30-git@bandit.labs.overthewire.org:2220/home/bandit30-git/repo
 cd repo/
 git tag
 git show secret
@@ -465,7 +465,7 @@ git show secret
 ## Level 31 → 32
 
 ```bash
-it clone ssh://bandit31-git@bandit.labs.overthewire.org:2220/home/bandit31-git/repo
+git clone ssh://bandit31-git@bandit.labs.overthewire.org:2220/home/bandit31-git/repo
 cd repo/
 ls -all
 cat README.md
