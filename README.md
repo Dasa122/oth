@@ -379,11 +379,22 @@ SoHfqMOEqIX2IYKVciZxvgpR9a2Djx4P
 
 ## Level 25 → 26
 
+
+```bash
+yk just a priv key
+```
+
+```text
+26: jHdv2ELQhT22BkprMNDjybZDAkw1zeBJ
+```
+
+
+## Level 26 → 27
+
 ```text
 
 v visual mode
 ```
-
 
 ```bash
 small terminal
@@ -391,10 +402,109 @@ v to visual mode
 :set shell=/bin/bash
 :shell
 cat /etc/bandit_pass/bandit26
+./bandit27-do cat /etc/bandit_pass/bandit27
 ```
 
 ```text
-jHdv2ELQhT22BkprMNDjybZDAkw1zeBJ
+27: STJLJBRRphMxKB392CT4iOr5CbzPU9ER
+```
+
+## Level 27 → 28
+
+```bash
+it clone ssh://bandit27-git@bandit.labs.overthewire.org:2220/home/bandit27-git/repo
+cd repo/
+cat README
+```
+
+```text
+y8Yd2ssKcpHpud7UvOSOxwamRMzIGIeQ
+```
+
+## Level 28 → 29
+
+```bash
+it clone ssh://bandit28-git@bandit.labs.overthewire.org:2220/home/bandit28-git/repo
+cd repo/
+git log
+git checkout df10da19c2625f7c59e071e16030bd587d8c409d
+cat README.md
+```
+
+```text
+Em7eGtqaMySwNFjCpwzzHhLhospOcdt0
+```
+
+## Level 29 → 30
+
+```bash
+it clone ssh://bandit29-git@bandit.labs.overthewire.org:2220/home/bandit29-git/repo
+cd repo/
+git branch -r
+git checkout origin/dev
+cat README.md
+```
+
+```text
+jq9Dfg2rXsfYsWMgFuKlXhphjdH7USgX
+```
+
+## Level 30 → 31
+
+```bash
+it clone ssh://bandit30-git@bandit.labs.overthewire.org:2220/home/bandit30-git/repo
+cd repo/
+git tag
+git show secret
+```
+
+```text
+82NkymblpGBYmIXG6ZQ8YldBYstHpfUf
+```
+
+## Level 31 → 32
+
+```bash
+it clone ssh://bandit31-git@bandit.labs.overthewire.org:2220/home/bandit31-git/repo
+cd repo/
+ls -all
+cat README.md
+cat .gitignore
+echo "May I come in?" > key.txt
+git add key.txt -f
+git commit -m "asd"
+```
+
+```text
+pWuj5jBQ6IgV0NXwiH6g1pXRF8S1YvbT
+```
+
+## Level 32 → 33
+
+```text
+A little bit of Theory
+Linux has Variables called local variables (valid in current shell), shell variables (set up by shell) and environment variables (valid systemwide). These variables have their names in uppercase only. They are defined by writing VAR_NAME=var_value in the command line. To see the content of a variable, you can write echo $VAR_NAME.
+
+To print all environment variables, you can use printenv.
+
+Some common that are good to know are:
+
+TERM -  current terminal emulation
+HOME - the path to home directory of currently logged in user
+LANG - current locales settings
+PATH - directory list to be searched when executing commands
+PWD - pathname of the current working directory
+SHELL/0 - the path of the current user’s shell
+USER - currently logged-in user
 ```
 
 
+```bash
+$0
+bash
+cat /etc/bandit_pass/bandit33
+```
+
+```text
+u4P2CyPOwPGLe94RdD9Uo2FxFwvnFswM
+```
